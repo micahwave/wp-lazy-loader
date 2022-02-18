@@ -1,0 +1,24 @@
+{
+  "name": "wp-lazy-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/app.js --bundle --outfile=dist/app.min.js --minify --sourcemap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahwave/wp-lazy-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micahwave/wp-lazy-loader/issues"
+  },
+  "homepage": "https://github.com/micahwave/wp-lazy-loader#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.22"
+  }
+}
